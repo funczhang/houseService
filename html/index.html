@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>家政服务</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+</head>
+<body>
+	<div class="layout">
+		<!-- 头部开始 -->
+		<div class="header">
+			<div class="header-wrapper center">
+				<div class="wrapper-left l">
+					<span class="welcome-statement fw f12 lh33 mr30">欢迎您<a href="javascript:void(null)" class="user-name ml5">杨柳</a></span>
+					<img src="../images/pic_email.png" class="vm">
+					<a href="javascript:void(null)" class="message ml2">消息</a>
+				</div>
+				<div class="link-us r h33 lh33">
+					<a href="javascript:void(null)">我的需求</a>
+					<a href="javascript:void(null)" class="join-us ml30 mr15">我要加盟</a>
+					<span>家政服务热线:12349</span>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!-- 头部结束 -->
+		<!-- 主体部分开始 -->
+		<div class="main-content center">
+			<!-- 搜索面板开始 -->
+			<div class="search-panel center rel">
+				<a href="javascript:void(null)"><img src="../images/logo_font.png" height="29" width="190" class="vt mt30 l"></a>
+				<div class="search-input mt27 ml65">
+					<label class="search-by-keyword abs f14 gc abs" for="searchByKeyword">请输入关键字查询</label>
+					<input type="text" class="search vt l f14 ti10" id="searchByKeyword" maxlength="30">
+					<a href="javascript:void(null)" class="btn-search wh tc r">搜索</a>
+					<div class="clear"></div>
+				</div>
+				<div class="fast-service r">
+					<a href="javascript:void(null)" class="f12 ml15 g6 mt">保姆</a>
+					<a href="javascript:void(null)" class="f12 ml15 g6">疏通管道</a>
+					<a href="javascript:void(null)" class="f12 ml15 g6">家政公司</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<!-- 搜索面板结束 -->
+			<!-- 滚动图面板开始 -->
+			<div class="display-panel">
+				<div class="pic-show-panel l rel">
+					<a href="#"><img src="../images/pic_person.png" height="250" width="749"></a>
+					<div class="display-statemnt">
+						<span  class="pic-statement l f20 wh lh44 ti10 ell rel" id="picStatement">爱惜我们共有的财物，让世界更加美好！</span>
+						<span class="f16 wh lh44 r mr10 rel">/5</span>
+						<span class="pic-num f20 wh lh44 r rel" id="page">1</span>
+						<div class="clear"></div>
+					</div>
+					<a href="#" class="iblock left-arrow abs tc lh60 f30 wh"><</a>
+					<a href="#" class="iblock right-arrow abs tc lh60 f30 wh">></a>
+				</div>
+				<!-- 预约面板 -->
+				<div class="reservation-panel r">
+					<div class="reservation-head">
+						<span class="l fw f16 wh lh38 ml8">预约服务</span>
+						<a href="javascript:void(null)" class="r fw f14 wh lh38 mr8">更多>></a>
+					</div>
+					<div class="select-service-type f14 lh30 ti5 poi">
+						选择服务类型
+					</div>
+					<!-- 服务类型列表 -->
+					<ul class="service-type-list abs poi">
+					</ul>
+					<script type="text/html" id="serviceTypeTmpl">
+						{{each $data as value i}}
+								<li class="service-type h30 f14 lh30 ti10 poi">{{value.type}}</li>
+						{{/each}}
+					</script>
+					<div class="city-option l f14 lh30 ti5 poi">
+						请选择城市
+					</div>
+					<!--选择城市列表 -->
+					<ul class="city-list abs poi">
+					</ul>
+					<script type="text/html" id="cityListTmpl">
+						{{each $data as value i}}
+							<li class="city h30 f14 lh30 ti10 poi">{{value.option}}</li>
+						{{/each}}
+					</script>
+					<div class="area-option r f14 lh30 ti5 poi">
+						请选择区县
+					</div>
+					<!-- 选择县区列表 -->
+					<ul class="area-list abs poi">
+					</ul>
+					<script type="text/html" id="areaListTmpl">
+						{{each $data as value i}}
+							<li class="area h30 f14 lh30 ti10 poi">{{value.option}}</li>
+						{{/each}}
+					</script>
+					<div class="clear"></div>
+					<form>
+						<label for="address" class="address-tip abs f14 lh30">请输入详细地址</label>
+						<label for="phone" class="phone-tip abs f14 lh30">请输入联系方式</label>
+						<input type="text" class="input-address lh30" id="address" maxlength="15">
+						<input type="text" class="input-phone lh30" id="phone" maxlength="15">
+					</form>
+					<button class="btn-release f16 wh tc poi">立即发布</button>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<!-- 滚动图面板结束 -->
+			<!-- 服务展示面板开始 -->
+			<div class="service-classify-panel mt12">
+				<!-- 服务内容列表 开始-->
+				<table class="service-table l">
+					<tr>
+						<td class="basket">
+							<div class="service-content ml80">
+								<p class="mytitlefont ell">保姆/月嫂</p>
+								<p class="ell"><a href="javascript:void(null)">钟点工</a><span class="division-line">|</span><a href="javascript:void(null)">保姆</a><span class="division-line">|</span><a href="javascript:void(null)">病患陪护</a></p>
+							</div>
+						</td>
+						<td class="radiation">
+							<div class="service-content ml80">
+								<p class="mytitlefont ell">家电维修</p>
+								<p class="ell"><a href="javascript:void(null)">冰箱</a><span class="division-line">|</span><a href="javascript:void(null)">空调</a><span class="division-line">|</span><a href="javascript:void(null)">洗衣机</a></p>
+							</div>
+						</td>
+						<td class="portfolio">
+							<div class="service-content ml80">
+								<p class="mytitlefont ell">搬家服务</p>
+								<p><a href="javascript:void(null)">居民搬家</a><span class="division-line">|</span><a href="javascript:void(null)">设备搬迁</a>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="photo">
+							<div class="service-content ml80">
+								<p class="mytitlefont ell" title="数码维修">数码维修</p>
+								<p class="ell"><a href="javascript:void(null)">相机</a><span class="division-line">|</span><a href="javascript:void(null)">手机</a><span class="division-line">|</span><a href="javascript:void(null)">洗衣机</a>
+							</div>
+						</td>
+						<td class="cook">
+							<div class="service-content ml80">
+								<p class="mytitlefont ell">干衣/洗衣</p>
+								<p class="ell"><a href="javascript:void(null)">干衣</a><span class="division-line">|</span><a href="javascript:void(null)">洗衣</a><span class="division-line">|</span><a href="javascript:void(null)">皮衣护理</a></p>
+							</div>
+						</td>
+						<td class="lock">
+							<div class="service-content ml80">
+								<p class="mytitlefont ell">开锁</p>
+								<p class="ell"><a href="javascript:void(null)">开锁</a><span class="division-line">|</span><a href="javascript:void(null)">换锁</a><span class="division-line">|</span><a href="javascript:void(null)">修锁</a></p>
+							</div>
+						</td>
+					</tr>
+				</table>
+				<!-- 服务内容列表结束 -->
+				<!-- 图片热线开始 -->
+				<div class="pic-hot-line r">
+					<a href="javascript:void(null)"><img src="../images/hot_line.png" height="216" width="242"></a>
+				</div>
+				<!-- 图片热线结束 -->
+				<div class="clear"></div>
+			</div>
+			<!-- 服务展示面板结束 -->
+			<div class="our-provider mt20 l">
+				<div class="our-provider-head">
+					<span class="l fw f18 lh50">热门服务商</span>
+					<div class="our-provider-head-link l mt19 ml20"><a href="javascript:void(null)" class="">家电维修</a><span class="division-line">|</span><a href="javascript:void(null)">管道疏通</a><span class="division-line">|</span><a href="javascript:void(null)">小时工</a></div>
+					<a href="" class="more r mt19 mr5">更多>></a>
+					<div class="clear"></div>
+				</div>
+				<ul class="provider-list">
+				<!-- 	<li>
+						<a href="" class="provider-01 pic-show"><img src="../images/pic_one.png" height="162" width="242"></a>
+						<p class="company-name f18 h30 lh30 ell" title="六安蛟海保洁工程有限公司">六安蛟海保洁工程有限公司</p>
+						<div class="company-degree">
+							<span class="degree l f16 wh ml35">4.5</span>
+							<div class="company-service-link l ml25 lh21 ell">
+								<a href="javascript:void(null)">家电维修</a>
+								<a href="javascript:void(null)">保姆</a>
+								<a href="javascript:void(null)">月嫂</a>
+							</div>
+						</div>
+					</li> -->
+					<!-- <li>
+						<a href="" class="provider-02 pic-show"></a>
+						<p class="company-name f18 h30 lh30 ell" title="蛟海保洁工程有限公司">蛟海保洁工程有限公司</p>
+						<div class="company-degree">
+							<span class="degree l f16 wh ml35">3.5</span>
+							<div class="company-service-link l ml25 lh21">
+								<a href="javascript:void(null)">家电维修</a>
+								<a href="javascript:void(null)">保姆</a>
+								<a href="javascript:void(null)">月嫂</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="" class="provider-03 pic-show"></a>
+						<p class="company-name f18 h30 lh30 ell" title="六安保洁工程">六安保洁工程</p>
+						<div class="company-degree">
+							<span class="degree l f16 wh ml35">4.8</span>
+							<div class="company-service-link l ml25 lh21">
+								<a href="javascript:void(null)">家电维修</a>
+								<a href="javascript:void(null)">保姆</a>
+								<a href="javascript:void(null)">月嫂</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="" class="provider-04 pic-show"></a>
+						<p class="company-name f18 h30 lh30 ell" title="安蛟海保洁公司">安蛟海保洁公司</p>
+						<div class="company-degree">
+							<span class="degree l f16 wh ml35">5.0</span>
+							<div class="company-service-link l ml25 lh21">
+								<a href="javascript:void(null)">家电维修</a>
+								<a href="javascript:void(null)">保姆</a>
+								<a href="javascript:void(null)">月嫂</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="" class="provider-05 pic-show"></a>
+						<p class="company-name f18 h30 lh30 ell" title="汽车维修工程有限公司">汽车维修工程有限公司</p>
+						<div class="company-degree">
+							<span class="degree l f16 wh ml35">3.6</span>
+							<div class="company-service-link l ml25 lh21">
+								<a href="javascript:void(null)">家电维修</a>
+								<a href="javascript:void(null)">保姆</a>
+								<a href="javascript:void(null)">月嫂</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:void(null)" class="provider-06 pic-show"></a>
+						<p class="company-name f18 h30 lh30 ell" title="车道保洁工程有限公司">车道保洁工程有限公司</p>
+						<div class="company-degree">
+							<span class="degree l f16 wh ml35">4.9</span>
+							<div class="company-service-link l ml25 lh21">
+								<a href="javascript:void(null)">家电维修</a>
+								<a href="javascript:void(null)">保姆</a>
+								<a href="javascript:void(null)">月嫂</a>
+							</div>
+						</div>
+					</li>
+					<div class="clear"></div> -->
+				</ul>
+				<script type="text/html" id="providerTmpl">
+				{{each $data as value i}}
+					<li>
+						<a href="" class="pic-show"><img src={{value.imgUrl}} height="162" width="242"></a>
+						<p class="company-name f18 h30 lh30 ell" title={{value.name}}>{{value.name}}</p>
+						<div class="company-degree">
+							<span class="degree l f16 wh ml35" style="">{{value.degree}}</span>
+							<div class="company-service-link l ml25 lh21 ell">
+								<a href="javascript:void(null)">家电维修</a>
+								<a href="javascript:void(null)">保姆</a>
+								<a href="javascript:void(null)">月嫂</a>
+							</div>
+						</div>
+					</li>
+				{{/each}}
+				</script>
+			</div>
+			<div class="excellent-worker-list r mt20">
+				<div class="excellent-worker-list-head">
+					<span class="f16 h50 lh50">优秀服务人员</span>
+					<!-- 优秀服务人员列表 -->
+					<div class="worker-list">
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!-- 优秀服务人员模板 -->
+		<script type="text/html" id="workerTmpl">
+			{{each $data as value i}}
+				<div class="worker-info-panel">
+					<a href="###">
+						<div class="worker-image l rel">
+							<img src={{value.imgUrl}}>
+							<div class="worker-grade f12 wh ti5 abs">
+								<span class="iblock f16 wh rel lh22">{{value.degree}}</span>分
+							</div>
+						</div>
+					</a>
+					<div class="worker-info r">
+						<ul class="worker-info-ul">
+							<li class="f16 h35 lh35 g3f ell">{{value.name}}</li>
+							<li class="f12 gf ell">服务内容:</li>
+							<li class="f12 g83 mt5 h16 ell">{{value.serviceContent}}</li>
+							<li class="f12 g83 h16 ell">{{value.experience}}</li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+			{{/each}}
+		</script>
+		<!-- 主体部分结束 -->
+		<!-- 脚部开始 -->
+		<div class="footer mt54">
+			<p class="copyright fw f12 tc l52 lh52">版权所有 科大讯飞股份有限公司</p>
+		</div>
+		<!-- 脚部结束 -->
+	</div>
+	<script type="text/javascript" src="../js/plugins/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="../js/plugins/template.js"></script>
+	<script type="text/javascript" src="../js/app/common/common.js"></script>
+	<script type="text/javascript" src="../js/app/dao/dao.js"></script>
+	<script type="text/javascript" src="../js/app/service/service.js"></script>
+	<script type="text/javascript" src="../js/plugins/index.js"></script>
+</body>
+</html>

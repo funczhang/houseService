@@ -1,0 +1,50 @@
+﻿/*-------------- reset.css --------------------*/
+/* --Elements-- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,lable,textarea,p,blockquote,img{margin:0;padding:0;font-family:'微软雅黑';}
+img{border:none; float:none;}
+fieldset{ border: 0; } 
+ol,ul{list-style:none;}
+body{margin:0;font:12px Verdana, Arial, Helvetica, sans-serif,"微软雅黑"; color:#42515A; word-break:break-all;}
+label {cursor:hand;}
+input,button,select{outline:none;border:none;margin:0;padding:0;}
+/* --Link Styles-- */
+a{color:#333;text-decoration: none;outline:none;blr:expression(this.onFocus=this.blur());}
+button{outline:0;_blr:expression(this.onFocus=this.blur());} /*去除边框虚线*/
+a{font:"微软雅黑";}
+/*-------------- base.css --------------------*/
+.mytitlefont{font:bold 18px/25px "微软雅黑";}
+.mycontentfont{font:normal 12px/15px "微软雅黑"; color:#6b6b6b;}
+.h14{height:14px;}.h15{height:15px;}.h16{height:16px;}.h18{height:18px;}.h20{height:20px;}.h22{height:22px;}.h24{height:24px;}.h30{height:30px;}.h33{height:33px;}.h35{height:35px;}.h40{height:40px;}.h50{height:50px;}.h52{height:52px;}
+.lh14{line-height:14px;}.lh16{line-height:16px;}.lh18{line-height:18px;}.lh20{line-height:20px;}.lh21{line-height:21px;}.lh22{line-height:22px;}.lh24{line-height:24px;}.lh30{line-height:30px;}.lh33{line-height: 33px;}.lh35{line-height: 35px;}.lh38{line-height:38px;}.lh40{line-height:40px;}.lh44{line-height:44px;}.lh50{line-height: 50px;}.lh52{line-height: 52px;}.lh60{line-height: 60px;}
+.m0{margin:0;}.ml1{margin-left:1px;}.ml2{margin-left:2px;}.ml5{margin-left:5px;}.ml8{margin-left:8px;}.ml10{margin-left:10px;}.ml15{margin-left:15px;}.ml20{margin-left:20px;}.ml25{margin-left:25px;}.ml30{margin-left: 30px}.ml35{margin-left: 35px}.ml63{margin-left:63px;}.ml65{margin-left:65px;}.ml80{margin-left:80px;}.mr1{margin-right:1px;}.mr2{margin-right:2px;}.mr5{margin-right:5px;}.mr8{margin-right:8px;}.mr10{margin-right:10px;}.mr15{margin-right:15px;}.mr30{margin-right: 30px;}.mr20{margin-right:20px;}.mt1{margin-top:1px;}.mt2{margin-top:2px;}.mt5{margin-top:5px;}.mt10{margin-top:10px;}.mt12{margin-top:12px;}.mt19{margin-top:19px;}.mt20{margin-top:20px;}.mt27{margin-top:27px;}.mt30{margin-top:30px;}.mt54{margin-top: 54px;}.mb1{margin-bottom:1px;}.mb2{margin-bottom:2px;}.mb5{margin-bottom:5px;}.mb10{margin-bottom:10px;}.mb20{margin-bottom:20px;}.ml-1{margin-left:-1px;}.mt-1{margin-top:-1px;}
+.p0{padding:0px;}.p1{padding:1px;}.pl1{padding-left:1px;}.pt1{padding-top:1px;}.pr1{padding-right:1px;}.pb1{padding-bottom:1px;}.p2{padding:2px;}.pl2{padding-left:2px;}.pt2{padding-top:2px;}.pr2{padding-right:2px;}.pb2{padding-bottom:2px;}.pl5{padding-left:5px;}.p5{padding:5px;}.pt5{padding-top:5px;}.pr5{padding-right:5px;}.pb5{padding-bottom:5px;}.p10{padding:10px;}.pl10{padding-left:10px;}.pt10{padding-top:10px;}.pr10{padding-right:10px;}.pb10{padding-bottom:10px;}.p20{padding:20px;}.pl20{padding-left:20px;}.pt20{padding-top:20px;}.pr20{padding-right:20px;}.pb20{padding-bottom:20px;}
+.g0{color:#000;}.g3{color:#333;}.g6{color:#666;}.g9{color:#999;}.wh{color:white;}.g3f{color:#3f3f3f}.gf{color:#ffa200}.g83{color:#838383;}.gc{color:#cccccc;}
+.f0{font-size:0;}.f10{font-size:10px;}.f12{font-size:12px;}.f13{font-size:13px;}.f14{font-size:14px;}.f16{font-size:16px;}.f18{font-size:18px;}.f20{font-size:20px;}.f24{font-size:24px;}.f30{font-size:30px;}
+.fw{font-family:'微软雅黑';}
+.ti5{text-indent: 5px;}.ti10{text-indent: 10px;}
+.n{font-weight:normal; font-style:normal;}.b{font-weight:bold;}.i{font-style:italic;}
+.tc{text-align:center;}.tr{text-align:right;}.tl{text-align:left;}.tj{text-align:justify;}
+.lt0{letter-spacing:0;}lt1{letter-spacing:1px;}
+.bk{word-wrap:break-word;}
+.vm{vertical-align:middle;}.vtb{vertical-align:text-bottom;}.vb{vertical-align:bottom;}.vt{vertical-align:top;}.vn{vertical-align:-2px;}
+.l{float:left;}.r{float:right;}
+.rel{position:relative;}.abs{position:absolute;}
+.zx1{z-index:1;}.zx2{z-index:2;}
+.poi{cursor:pointer;}
+.ovh{overflow:hidden;}
+.vh{visibility:hidden;}.vv{visibility:visible;}
+.z{*zoom:1;}
+.center{margin:0 auto;}
+.hide{display:none;}.block{display:block;}.inline{display:inline;}
+.nowrap{white-space:nowrap;}
+.clear{clear:both; height:0; overflow:hidden;}
+/*块状元素水平居中*/
+.auto{margin-left:auto; margin-right:auto;}
+/*清除浮动*/
+.fix{*zoom:1;}.fix:after{display:block; content:"clear"; height:0; clear:both; overflow:hidden; visibility:hidden;}
+/*单行文字溢出虚点显示*/
+.ell{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+/*红色标记*/
+.mark{font-weight:bold;color:#ff0000;}
+/*字符型图标样式*/
+.symbol{font-size:14px;font-weight:bold;color:#0066cc;}

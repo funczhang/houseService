@@ -1,0 +1,434 @@
+/*头部*/
+.header {
+	width: 100%;
+	height: 33px;
+	background: #f9f9f9;
+	border-bottom: 1px solid #dddddd;
+}
+/*头部内容区*/
+.header-wrapper {
+	width: 1005px;
+	height: 100%;
+}
+.wrapper-left {
+	width: 170px;
+}
+.welcome-statement {
+	display: inline-block;
+	height: 33px;
+}
+.user-name {
+	display: inline-block;
+	color: #ed5829;
+}
+.vm {
+	margin-top: -3px;
+}
+.message {
+	display: inline-block;
+	width: 40px;
+	background: url(../images/double_arrow.png) no-repeat;
+	background-position: 25px -9px; 
+}
+.message:hover {
+	background: url(../images/double_arrow.png) no-repeat;
+	background-position: 25px 5px; 
+}
+.link-us {
+	_margin-right: 15px; /*解决ie6下头部右侧div整体右偏*/
+	width: 280px;
+}
+.join-us {
+	display: inline-block;
+	width: 67px;
+	background: url(../images/pic_arrow.png) no-repeat;
+	background-position: 55px 15px;
+}
+/*主要内容区*/
+.main-content {
+	width: 1005px;
+	height: 100%;
+	min-width: 1005px;
+}
+/*搜索层*/
+.search-panel {
+	width: 1005px;
+	height: 94px;
+}
+.search-input {
+	position: relative;
+	float: left;
+	width: 497px;
+	height: 40px;
+}
+.search {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: 1px solid red;
+	_margin-left: -65px; /*解决ie6下搜索框左偏*/
+	width: 426px;
+	height: 20px;
+	border: 2px solid #ed5829;
+	text-indent: 10px;
+}
+.search-by-keyword {
+	top: 2px;
+	left: 5px;
+	line-height: 36px;
+}
+.btn-search {
+	display: inline-block;
+	width: 63px;
+	height: 36px;
+	background: #ed5829;
+	border: 2px solid #ed5829;
+	font: bold 14px/36px "微软雅黑";
+
+}
+.fast-service {
+	margin-top:  49px;
+	margin-right: 68px;
+	width: 180px;
+}
+/*展示层*/
+.display-panel {
+	width: 1005px;
+	height: 250px;
+}
+.pic-show-panel {
+	position: relative;
+	width: 749px;
+	height: 250px;
+}
+.display-statemnt {
+	position: absolute;
+	top: 206px;
+	left: 0px;
+	width: 749px;
+	height: 44px;
+	background-color: rgba(0,0,0,.4);
+	background-color: #000000\9;/*解决ie下不支持透明度opacity属性*/
+	filter:Alpha(opacity=40)\9; 
+}
+.pic-statement {
+	display: inline-block;
+	width: 700px;
+}
+
+.left-arrow,.right-arrow {
+	top: 85px;
+	width: 25px;
+	height: 60px;
+	background-color: rgba(0,0,0,.1);
+}
+.left-arrow {
+	left: 0;
+}
+.right-arrow {
+	right: 0;
+}
+/*预约面板*/
+.reservation-panel {
+	position: relative;
+	width: 234px;
+	height: 242px;
+	border: 4px solid #ff8b0e;
+}
+.reservation-head {
+	width: 234px;
+	height: 38px;
+	background: #ff8b0e;
+}
+.select-service-type {
+	margin: 8px 8px;
+	width: 216px;
+	height: 30px;
+	border: 1px solid #f6e7db;
+	background: url(../images/select_background.png) no-repeat;
+	background-position: 185px 9px;
+}
+.service-type-list {
+	display: none;
+	top: 77px;
+	left: 8px;
+	width: 216px;
+	background: #ffffff;
+	border: 1px solid #f6e7db;
+	border-top: none;
+	z-index: 999;
+}
+.service-type-list li{
+	border-top: 1px solid #f6e7db;
+}
+.city-list,
+.area-list {
+	display: none;
+	width: 103px;
+	background: #ffffff;
+	border: 1px solid #f6e7db;
+	border-top: none;
+	z-index: 999;
+}
+.city-list {
+	top: 117px;
+	left: 8px;
+}
+.city,
+.area {
+	border-top: 1px solid #f6e7db;
+}
+.area-list {
+	top: 117px;
+	left: 121px;
+}
+.city-option,
+.area-option{
+	display: inline;/*兼容ie6 double margin问题*/
+	width: 103px;
+	height: 30px;
+	border: 1px solid #f6e7db;
+	background: url(../images/select_background.png) no-repeat;
+	background-position: 73px 9px;
+}
+.city-option {
+	margin-left: 8px;
+}
+.area-option {
+	margin-right: 8px;
+}
+.input-address,
+.input-phone{
+	width: 216px;
+	height: 30px;
+	border: 1px solid #f6e7db;
+	text-indent: 8px;
+}
+.input-address {
+	margin: 8px 8px;
+}
+.input-phone {
+	margin-left: 8px;
+}
+.address-tip {
+	top: 127px;
+	left: 20px;
+	color: #ccc;
+}
+.phone-tip {
+	top: 167px;
+	left: 20px;
+	color: #ccc;
+	z-index: 0;
+}
+
+.btn-release {
+	margin-top: 6px;
+	_margin-top: 3px;/* 解决ie6下按钮下偏*/
+	margin-left: 57px;
+	/*margin: 8px 57px;*/
+	width: 119px;
+	height: 33px;
+	background: url(../images/btn_background.png) no-repeat;
+	font-weight: bold;
+}
+/*服务分类层*/
+.service-classify-panel {
+	width: 1005px;
+	height: 215px;
+}
+.service-table {
+	table-layout: fixed;
+	width: 749px;
+	height: 215px;
+	border-collapse: collapse;
+	border: 1px solid #eaeaea;
+}
+.service-table tr td {
+	border: 1px solid #eaeaea;
+}
+.pic-hot-line {
+	width: 242px;
+	height: 216px;
+}
+.basket {
+	background: url(../images/icon_basket.png);
+}
+.radiation {
+	background: url(../images/icon_radiation.png);
+}
+.portfolio {
+	background: url(../images/icon_portfolio.png);
+}
+.photo {
+	background: url(../images/icon_camera.png);
+}
+.cook {
+	background: url(../images/icon_cook.png);
+}
+.lock {
+	background: url(../images/icon_lock.png);
+}
+.basket,
+.radiation,
+.portfolio,
+.photo,
+.cook,
+.lock {
+	background-position: 32px 33px;
+	background-repeat: no-repeat;
+}
+/*服务内容区*/
+.service-content {
+	width: 160px;
+	height: 42px;
+}
+.service-content p a {
+	display: inline-block;
+	font: normal 12px/15px "微软雅黑";
+	color: #6b6b6b;
+}
+.division-line {
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.our-provider {
+	width: 749px;
+	height: 520px;
+}
+.our-provider-head {
+	width: 100%;
+	height: 50px;
+}
+.our-provider-head-link {
+	width: 160px;
+}
+.our-provider-head-link a {
+	color: #6b6b6b;
+}
+.more {
+	width: 45px;
+	color: #6b6b6b;
+}
+/*li左右靠边，中间自适应布局，通过调整ul的margin为负来实现*/
+.provider-list {
+	margin: 0 -7px;
+}
+.provider-list li {
+	float: left;
+	margin: 0 6px;
+	_margin:0 3px; /*解决ie6下供应商列表一行只能展示2的问题*/
+	margin-bottom:  35px;
+	width: 242px;
+	height: 221px;
+
+}
+.pic-show {
+	display: inline-block;
+	width: 242px;
+	height: 162px;
+}
+/*供应商图片展示*/
+/*.provider-01 {
+	background: url(../images/pic_one.png) no-repeat;
+}*/
+/*.provider-02 {
+	background: url(../images/pic_two.png) no-repeat;
+}
+.provider-03 {	
+	background: url(../images/pic_three.png) no-repeat;
+}
+.provider-04 {
+	background: url(../images/pic_four.png) no-repeat;
+}
+.provider-05 {
+	background: url(../images/pic_five.png) no-repeat;
+}
+.provider-06 {
+	background: url(../images/pic_six.png) no-repeat;
+}*/
+.company-name {
+	color: #3f3f3f;
+}
+.company-degree {
+	width: 100%;
+	height: 21px;
+	background: url(../images/Diamond.png) no-repeat;
+}
+.company-service-link {
+	width: 130px;
+	height: 21px;
+}
+.company-service-link a {
+	color: #838383;
+}
+/*优秀员工列表*/
+.excellent-worker-list {
+	width: 242px;
+	height: 520px;
+}
+.excellent-worker-list-head {
+	width: 100%;
+	height: 50px;
+}
+.worker-list {
+	width: 100%;
+	height: 470px;
+	border: 1px solid #eaeaea;
+}
+.worker-info-panel {
+	margin: 10px auto;
+	width: 223px;
+	height: 107px;
+	border-bottom: 1px dotted #eaeaee;
+}
+.worker-image {
+	display: inline; /*适配ie6 double margin*/
+	margin: 0 10px;
+	width: 74px;
+	height: 95px;
+	overflow: hidden;
+}
+.worker-info {
+	width: 125px;
+	height: 93px;
+}
+.worker-info-ul,
+.work-info-ul li {
+	width: 125px;
+}
+/*优秀员工列表图片展示区*/
+/*/*.worker-01 {
+	background: url(../images/worker_01.png) no-repeat;
+}*/
+/*.worker-02 {
+	background: url(../images/worker_02.png) no-repeat;
+}
+.worker-03 {
+	background: url(../images/worker_03.png) no-repeat;
+}
+.worker-04 {
+	background: url(../images/worker_04.png) no-repeat;
+}*/
+.worker-grade {
+	position: absolute;
+	bottom: -1px;
+	width: 74px;
+	height: 22px;
+	background-color:rgba(0, 0, 0, 0.4);
+	background-color: #000000\9; /*解决ie下不能设置透明度问题*/
+	filter:Alpha(opacity=40)\9; 
+}
+.work-grade span {
+	height: 100%;
+}
+/*脚部*/
+.footer {
+	width: 100%;
+	height: 52px;
+	background: #f9f9f9;
+	border-top: 1px solid #dddddd;
+}
+.copyright {
+	color: #707070;
+}

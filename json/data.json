@@ -1,0 +1,291 @@
+{
+    "flag": true,
+    "msg": "操作成功",
+    "playImg": [
+        {
+            "id": "1",
+            "url": "../images/pic_person.png",
+            "title": "爱惜我们共有的财物，让世界更加美好！"
+        },
+        {
+            "id": "2",
+            "url": "../images/111.png",
+            "title": "图片一片灰！"
+        },
+        {
+            "id": "3",
+            "url": "../images/222.png",
+            "title": "AND TONS OTHER FEATURES！"
+        },
+        {
+            "id": "4",
+            "url": "../images/333.png",
+            "title": "No more overflow:hidden！"
+        },
+        {
+            "id": "5",
+            "url": "../images/444.png",
+            "title": "TML IS magical！"
+        }
+    ],
+    "serviceType": [
+        {
+            "id": "1",
+            "type": "桑拿"
+        },
+        {
+            "id": "2",
+            "type": "洗浴"
+        },
+        {
+            "id": "3",
+            "type": "月嫂"
+        },
+        {
+            "id": "4",
+            "type": "按摩"
+        },
+        {
+            "id": "5",
+            "type": "搬家"
+        }
+    ],
+    "city": [
+        {
+            "id": "1",
+            "option": "合肥市",
+            "childOption": [
+                {
+                    "id": "1",
+                    "option": "瑶海区"
+                },
+                {
+                    "id": "2",
+                    "option": "蜀山区"
+                },
+                {
+                    "id": "3",
+                    "option": "庐阳区"
+                },
+                {
+                    "id": "4",
+                    "option": "包河区"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "option": "芜湖市",
+            "childOption": [
+                {
+                    "id": "1",
+                    "option": "镜湖区"
+                },
+                {
+                    "id": "2",
+                    "option": "鸠江区"
+                },
+                {
+                    "id": "3",
+                    "option": "弋江区"
+                },
+                {
+                    "id": "4",
+                    "option": "三山区"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "option": "马鞍山市",
+            "childOption": [
+                {
+                    "id": "2",
+                    "option": "雨山区"
+                },
+                {
+                    "id": "3",
+                    "option": "花山区"
+                },
+                {
+                    "id": "4",
+                    "option": "博望新区"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "option": "黄山市",
+            "childOption": [
+                {
+                    "id": "1",
+                    "option": "屯溪区"
+                },
+                {
+                    "id": "2",
+                    "option": "黄山区"
+                },
+                {
+                    "id": "3",
+                    "option": "徽州区"
+                }
+            ]
+        }
+    ],
+    "worker": [
+        {
+            "id": "1",
+            "imgUrl": "../images/worker_01.png",
+            "degree": "4.8",
+            "name": "陈娇",
+            "serviceContent": "育儿嫂、保姆",
+            "experience": "3-5年经验"
+        },
+        {
+            "id": "2",
+            "imgUrl": "../images/worker_02.png",
+            "degree": "4.5",
+            "name": "张斌",
+            "serviceContent": "月嫂、育儿嫂、保姆",
+            "experience": "3-5年经验"
+        },
+        {
+            "id": "3",
+            "imgUrl": "../images/worker_03.png",
+            "degree": "4.3",
+            "name": "张晓",
+            "serviceContent": "月嫂、育儿嫂",
+            "experience": "3-5年经验"
+        },
+        {
+            "id": "4",
+            "imgUrl": "../images/worker_04.png",
+            "degree": "4.0",
+            "name": "李甜甜",
+            "serviceContent": "月嫂、保姆",
+            "experience": "3-5年经验"
+        }
+    ],
+    "provider": [
+        {
+            "id": "1",
+            "imgUrl": "../images/pic_one.png",
+            "name": "车道保洁工程有限公司",
+            "degree": 4.5,
+            "serviceContent": [
+                {
+                    "id": "1",
+                    "service": "家电维修"
+                },
+                {
+                    "id": "2",
+                    "service": "保姆"
+                },
+                {
+                    "id": "3",
+                    "service": "月嫂"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "imgUrl": "../images/pic_two.png",
+            "name": "六安蛟海保洁工程有限公司",
+            "degree": 3.5,
+            "serviceContent": [
+               {
+                    "id": "1",
+                    "service": "家电维修"
+                },
+                {
+                    "id": "2",
+                    "service": "保姆"
+                },
+                {
+                    "id": "3",
+                    "service": "月嫂"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "imgUrl": "../images/pic_three.png",
+            "name": "蛟海保洁工程有限公司",
+            "degree": 4.8,
+            "serviceContent": [
+                {
+                    "id": "1",
+                    "service": "家电维修"
+                },
+                {
+                    "id": "2",
+                    "service": "保姆"
+                },
+                {
+                    "id": "3",
+                    "service": "月嫂"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "imgUrl": "../images/pic_four.png",
+            "name": "六安保洁工程",
+            "degree": 5.0,
+            "serviceContent": [
+                {
+                    "id": "1",
+                    "service": "家电维修"
+                },
+                {
+                    "id": "2",
+                    "service": "保姆"
+                },
+                {
+                    "id": "3",
+                    "service": "月嫂"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "imgUrl": "../images/pic_five.png",
+            "name": "安蛟海保洁公司",
+            "degree": 3.6,
+            "serviceContent": [
+                {
+                    "id": "1",
+                    "service": "家电维修"
+                },
+                {
+                    "id": "2",
+                    "service": "保姆"
+                },
+                {
+                    "id": "3",
+                    "service": "月嫂"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "imgUrl": "../images/pic_six.png",
+            "name": "汽车维修工程有限公司",
+            "degree": 4.9,
+            "serviceContent": [
+                {
+                    "id": "1",
+                    "service": "家电维修"
+                },
+                {
+                    "id": "2",
+                    "service": "保姆"
+                },
+                {
+                    "id": "3",
+                    "service": "月嫂"
+                }
+            ]
+        }
+    ]
+}
